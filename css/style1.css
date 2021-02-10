@@ -1,0 +1,219 @@
+*{
+	font: 15px/1.5 Josefin Sans, Arial, Helvetica, sans-serif;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #f3f5f9;
+	background-size: cover;	
+	height: 100%;
+}
+
+
+/*Footer*/
+
+footer{
+	position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #4b4276;
+    text-align: center;
+	border: 2px solid #594f8d;
+	color: white;
+    
+}
+
+/*Socials*/
+
+
+.socials li{
+	padding-left:50%;
+	padding-top:50px;
+}
+
+.socials li a img{
+	width: 50px;
+}
+
+
+/*Header and Menu*/
+
+.header{
+	display: flex;
+	position: relative;
+}
+
+.header .inner{
+	position: fixed;
+	width: 200px;
+	height: 100%;
+	background: #4b4276;
+}
+
+.header .inner h1{
+	color: #fff;
+	text-transform: upprercase;
+	text-align: center;
+	margin-bottom: 30px;
+	font-size: 40px;
+}
+
+.header .inner h1 span{
+	font-size: 40px;
+}
+
+.header .inner ul li{
+	padding: 15px;
+	border-bottom: 1px solid rgba(0,0,0,0.05);
+	border-top: 1px solid rgba(255,255,255,0.05);
+}
+
+.header .inner a{
+	color: #bdb8d7;
+	display: block;
+}
+
+.header .inner a:hover{
+	background: #594f8d;
+}
+
+.showcase{
+	padding-bottom: 5%;
+	margin-left: 200px;
+}
+
+.showcase h1{
+	border-bottom: 1px solid #e0e4e8;
+	text-align: center;
+	font-size: 40px;
+}
+
+/*Books*/
+
+.link{
+	text-transform: capitalize;
+	margin-top:1%;
+	margin-left:250px;
+	border-bottom: 0.5px solid #ddd;
+	margin-bottom: 40px;
+}
+
+.link a{
+	color: steelblue;
+}
+
+.link a:hover{
+	color: #FF0000;
+}
+
+.reviewform{
+	margin-left: 250px;
+	display: block;
+}
+
+.reviewform h2{
+	font-size: 30px;
+	color: steelblue;
+	border-bottom: 1px solid steelblue;
+}
+
+.reviewform label{
+	font-size: 20px;
+	color: steelblue;
+}
+
+.reviewform select{
+	padding: 5px;
+	font-size: inherit;
+	border: 2px solid steelblue;
+	display: block;
+	margin: 2px;
+	width: 25%;
+}
+
+.reviewform input{
+	font-size: inherit;
+	border: 2px solid steelblue;
+	display: block;
+	width: 25%;
+	margin-left: 2px;
+	margin-bottom: 5px;
+}
+
+
+/*Table*/
+
+table{
+	max-width: 85%;
+	margin:25px auto;
+	border: 1px solid steelblue;
+    
+}
+
+table th{
+	background-color:#4b4276;
+	color: white;
+}
+
+table td, th{
+	padding: 8px;
+	border-bottom: 1px solid steelblue;
+	border-right: 1px solid steelblue;
+}
+
+table tr{
+	border-bottom: 1px solid steelblue;
+}
+
+
+/*About*/
+
+.about{
+	margin-left: 250px;
+}
+
+.about h2{
+	font-size: 30px;
+	color: steelblue;
+	display: table-cell;
+	border-bottom: 1px solid steelblue;
+}
+
+.about .photo img{
+	width:10%;
+	border: 2px solid gray;
+	box-shadow: 0 0 10px #000;
+	display:table-cell;
+	float: right;
+	margin-right: 10px;
+}
+
+.row{
+	padding-top: 20px;
+}
+
+.row .col h3{
+	font-size: 20px;
+	color: steelblue;
+}
+
+.row .col{
+	border-bottom: 1px solid steelblue;
+}
+
+/*Home page link*/
+.homelink a{
+	text-transform: capitalize;
+	margin-top:1%;
+	margin-left:250px;
+	border-bottom: 0.5px solid #ddd;
+	margin-bottom: 40px;
+	color: steelblue;
+}
+
+

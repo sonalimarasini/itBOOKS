@@ -1,0 +1,380 @@
+*{
+	font: 15px/1.5 Arial, Helvetica, sans-serif;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+body{
+	background-image: url('../images/bg.jpg');
+	background-size: cover;	
+	height: 100%;
+}
+
+
+/*Footer*/
+
+footer{
+	position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #DCDCDC;
+    text-align: center;
+    
+}
+
+/*Link Home*/
+.homelink{
+	margin-top:1%;
+	margin-left:2%;
+	border-bottom: 0.5px solid #ddd;
+}
+
+.homelink a{
+	color: black;
+}
+
+.homelink a:hover{
+	color: #FF0000;
+}
+
+/*Header and Menu*/
+
+.header{
+	width: 100%;
+	height: 85px;
+	display: block;
+	background-color: #DCDCDC;
+}
+
+.inner{
+	width: 81.5%;
+	height: 100%;
+	display: block;
+	margin: 0 auto;
+}
+
+.logo{
+	height: 100%;
+	display: table;
+	float: left;
+}
+
+.logo h1{
+	display: table-cell;
+	height: 100%;
+	font-weight: 200;
+	vertical-align: middle;
+	font-size: 35px;
+}
+
+.logo h1 span{
+	font-weight: 600;
+	font-size: 35px;
+}
+
+.menu{
+	float: right;
+	height: 100%;
+}
+
+.menu a{
+	height: 100%;
+	display: table;
+	float: left;
+	padding: 0px 10px;
+	color: #000;
+}
+
+.menu a:last-child{
+	padding-right: 0;
+}
+
+.menu a li{
+	display: table-cell;
+	vertical-align: middle;
+	height: 100%;
+	font-size: 15px;
+}
+
+.menu a:hover{
+	background-color: #A9A9A9;
+}
+
+/*Socials*/
+
+.socials{
+	width: 100%;
+	display: table;
+	text-align: center;
+	margin: auto;
+	position: relative;
+	min-height: 100%;
+	padding-bottom: 6%;
+	padding-top: 6%;
+}
+
+.socials li{
+	display: inline-block;
+	padding: 0 20px;
+	margin-bottom: 0;
+}
+
+.socials li a img{
+	width: 50px;
+}
+
+/*Background image*/
+
+.showcase{
+	min-height:200px;
+	background:url('../images/blurbooks.jpg');
+	text-align:center;
+	font-weight: bold;
+	border: 2px solid #DCDCDC;
+	border-radius:5px;
+	color:#303030;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.showcase h1{
+	font-size:40px;	
+	margin-bottom:5px;
+	margin-bottom:50px;
+	padding-top:5%;
+	letter-spacing:10px;
+	line-height: 2em;
+}
+
+/*About page*/
+
+/*3 divisions*/
+
+.about{
+	width: 800px;
+	margin: 3% auto;
+	display: table;
+	box-sizing: border-box;
+	border: 30px solid white;
+	border-radius:5px;
+	background: white;
+}
+
+.row{
+	margin: 10px 0;
+}
+
+.col{
+	display: table-cell;
+	padding: 10px;
+	width: 33.33%;
+	text-align: center;
+	vertical-align: middle;
+	border: 10px solid #fff;
+}
+
+.col:nth-child(1){
+	background: #cf6768;
+}
+
+.col:nth-child(2){
+	background: #8accc3
+
+}
+.col:nth-child(3){
+	background: #00acc1
+}
+
+@media (max-width: 900px){
+	.about{
+		margin: 0;
+		padding: 10px;
+		width:100%;
+	}		
+	.col{
+		width: 100%;
+		display: block;
+		margin: 10px 0;
+		border: none;
+		box-sizing: border-box;
+	}
+	.row{
+		margin: 0;
+	}
+}
+
+.col h3{
+	text-transform:uppercase;
+	font-size:20px;
+	letter-spacing:1.5px;
+	font-weight: bold;
+}
+
+/*Circular photo*/
+.about .photo img{
+	border-radius:50%;
+	width:20%;
+	border: 2px solid gray;
+	box-shadow: 0 0 10px #000;
+	display:table-cell;
+}
+
+/*Main Heading*/
+.about h2{
+	display:table-cell;
+	float:right;
+	font-size:50px;
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.4);
+	width: 60%;
+	vertical-align: center;
+	letter-spacing:1.5px;
+}
+
+/*Edit Table's Name*/
+.editbooksname{
+	max-width:500px;
+	margin: 2rem auto;
+	border: 2px solid #ddd;
+	padding: 2rem;
+	background: white;
+	border-radius: 5px;
+}
+
+.editbooksname h2{
+	font-size:25px;
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.4);
+	letter-spacing:1.5px;
+	border-bottom: 2px solid #ddd;
+}
+
+/*Link*/
+.link{
+	text-transform: capitalize;
+	margin-top:1%;
+	margin-left:2%;
+	border-bottom: 0.5px solid #ddd;
+}
+
+.link a{
+	color: black;
+}
+
+.link a:hover{
+	color: #FF0000;
+}
+
+/*Review*/
+
+/*reviewforms*/
+
+.reviewform{
+	max-width:500px;
+	margin: 2rem auto;
+	border: 2px solid #ddd;
+	padding: 2rem;
+	background: white;
+	border-radius: 5px;
+}
+
+.reviewform label{
+	display: block;
+	padding: 1rem 0 .25rem;
+	text-transform:uppercase;
+	font-size:14px;
+}
+
+.formoption{
+	display: block;
+	width:100%;
+	border: 1px solid #C2C2C2;
+	box-shadow: 1px 1px 4px #EBEBEB;
+	padding:.5rem;
+	font-size:14px;
+	border-radius:5px;
+}
+
+
+.button{
+	border:0;
+	background:#EBEBEB;
+	padding:.5rem;
+	color:black;
+	margin:.5rem 0;
+	width:100%;
+	text-transform:uppercase;
+	cursor:pointer;
+	border-radius:5px;
+}
+
+.reviewform h2{
+	font-size:25px;
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.4);
+	letter-spacing:1.5px;
+	border-bottom: 2px solid #ddd;
+}
+
+.reviewform select{
+	width: 100%;
+	height: 100%;
+	border: 1px solid #C2C2C2;
+	padding: 0 50px 2 20px;
+	cursor: pointer;
+	text-indent: 3px;
+	padding: .5rem;
+	border-radius: 5px;
+}
+
+
+/*Table books*/
+
+
+table{
+	border: 2px solid #ddd;
+	opacity: 0.95;
+	max-width: 85%;
+	margin:25px auto;
+	font-size: 0.9em;
+	background: #ddd;
+}
+
+table tr:last-child td:first-child {
+    border-bottom-left-radius: 10px;
+}
+
+table tr:last-child td:last-child {
+    border-bottom-right-radius: 10px;
+}
+
+table tr:first-child th:first-child {
+    border-top-left-radius: 10px;
+}
+
+table tr:first-child th:last-child {
+    border-top-right-radius: 10px;
+}
+
+table th{
+	background:#2F4F4F;
+	color:white;
+}
+
+table tr:nth-child(even){
+	background: #DCDCDC;
+}
+
+table tr:nth-child(odd){
+	background: white;
+}
+
+table th, td{
+	text-align: center;
+	padding: 10px;
+}
+
+article{
+	overflow-x: auto;
+}
+
+
